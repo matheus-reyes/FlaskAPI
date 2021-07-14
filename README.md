@@ -18,7 +18,7 @@ A aplicação roda em modo local no endereço: ``` http://localhost:5000/ ```
 
 ## Code Lints
 
-### Mypy (Verificação de Tipagem)
+### Mypy (Verificação de TypeHints)
 
 Instalação: ``` pip3 install mypy ```
 
