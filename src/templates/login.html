@@ -10,7 +10,7 @@
         {% endif %}
     {% endwith %}
 
-    <form action="{{url_for('authenticate')}}" method="POST">
+    <form action="{{url_for('routes.authenticateRoute')}}" method="POST">
         <fieldset>
             <div class="form-group">
                 <label for="email"> E-mail </label>
