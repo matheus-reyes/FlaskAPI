@@ -1,7 +1,7 @@
 {% extends "template.html" %}
 {% block content %}
     <div class="row">
-        <h3> <a href="/"> Listar jogos </a> </h3>
+        <h3> <a href="{{url_for('routes.listGameRoute')}}"> Listar jogos </a> </h3>
         <h3> <a href="{{url_for('routes.newGameRoute')}}"> Criar jogos </a> </h3>
         <h3> <a href="{{url_for('routes.logoutRoute')}}"> Sair </a> </h3>
     </div>

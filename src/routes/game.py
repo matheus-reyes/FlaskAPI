@@ -10,3 +10,8 @@ def newGameRoute():
 @routes.route('/createGame', methods=['POST'])
 def createGameRoute():
     return createGame()
+
+
+@routes.route('/listGame', methods=['GET'])
+def listGameRoute():
+    return renderListGames()

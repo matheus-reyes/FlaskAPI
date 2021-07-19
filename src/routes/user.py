@@ -25,3 +25,13 @@ def logoutRoute():
 @routes.route('/authenticate', methods=['POST'])
 def authenticateRoute():
     return authenticate()
+
+
+@routes.route('/register', methods=['GET'])
+def registerRoute():
+    return renderRegister()
+
+
+@routes.route('/register', methods=['POST'])
+def registerUserRoute():
+    return createUser()
